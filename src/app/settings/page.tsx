@@ -142,6 +142,7 @@ function SettingsForm({
         <h2 className="text-sm tracking-widest text-white/40 uppercase">Alpha</h2>
         <div className="grid grid-cols-2 gap-2">
           <SetupLink href="/demo" label="Demo hardware" detail="Fake Helm + Sightglass" />
+          <SetupLink href="/android" label="Android preview" detail="Phone frame of the Compose app" />
           <SetupLink href="/kits" label="Demo kits" detail="Buy lists for Sightglass + Helm" />
           <SetupLink href="/hardware" label="Hardware" detail="Power, flash, and pair each SKU" />
           <SetupLink href="/notes" label="Release notes" detail={APP_VERSION} />
