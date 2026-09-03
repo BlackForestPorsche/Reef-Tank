@@ -1,0 +1,17 @@
+{
+  "name": "Sightglass",
+  "short_name": "Sightglass",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07131c",
+  "theme_color": "#07131c",
+  "description": "Salty Electronics reef glance. Sightglass on the tank, Helm in the cabinet.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
