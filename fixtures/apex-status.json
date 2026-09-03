@@ -1,0 +1,20 @@
+{
+  "system": { "hostname": "Black-Reef", "software": "5.12_CA25" },
+  "inputs": [
+    { "did": "1_1", "name": "Temp", "type": "Temp", "value": "78.4" },
+    { "did": "1_2", "name": "pH", "type": "pH", "value": "8.11" },
+    { "did": "1_3", "name": "Cond", "type": "Cond", "value": "35.1" },
+    { "did": "5_1", "name": "Alk", "type": "Alk", "value": "8.4" },
+    { "did": "5_2", "name": "Ca", "type": "Ca", "value": "430" },
+    { "did": "5_3", "name": "Mg", "type": "Mg", "value": "1350" }
+  ],
+  "outputs": [
+    { "did": "1_1", "name": "Return Vortex", "status": ["AON", "", "OK", ""] },
+    { "did": "1_2", "name": "Jebao Gyre", "status": ["AON", "", "OK", ""] },
+    { "did": "2_1", "name": "AI Hydra Left", "status": ["AON", "", "OK", ""] },
+    { "did": "2_2", "name": "AI Hydra Right", "status": ["AON", "", "OK", ""] },
+    { "did": "3_1", "name": "Skimmer", "status": ["AON", "", "OK", ""] },
+    { "did": "3_2", "name": "Heater", "status": ["AON", "", "OK", ""] }
+  ],
+  "feed": { "name": "", "active": 0, "time": 0 }
+}
