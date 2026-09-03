@@ -1,0 +1,22 @@
+# Helm — optional Pro box from Salty Electronics.
+# Run on a Raspberry Pi, HexOS custom app, or any Docker host.
+# Sightglass units and the phone app do not require this for LAN glance/control
+# once the glass talks Apex directly. This process stores history, settings,
+# and (later) remote alerts / extra tanks.
+
+services:
+  helm:
+    build: .
+    container_name: helm
+    restart: unless-stopped
+    ports:
+      - "43180:43180"
+    environment:
+      PORT: "43180"
+      HOSTNAME: "0.0.0.0"
+      APEX_HOST: ${APEX_HOST:-}
+      APEX_USER: ${APEX_USER:-admin}
+      APEX_PASSWORD: ${APEX_PASSWORD:-}
+      HELM_AUTH_SECRET: ${HELM_AUTH_SECRET:-change-me-on-the-hub}
+    volumes:
+      - ./data:/app/data
