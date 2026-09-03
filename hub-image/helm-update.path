@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch for Helm update-request from Sightglass
+
+[Path]
+PathExists=/opt/helm/data/update-request
+
+[Install]
+WantedBy=multi-user.target

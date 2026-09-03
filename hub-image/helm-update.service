@@ -1,0 +1,6 @@
+[Unit]
+Description=Helm app-pushed update
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/lib/helm/update.sh
