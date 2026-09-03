@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Sightglass" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#07131C</item>
+        <item name="android:navigationBarColor">#07131C</item>
+        <item name="android:windowBackground">#07131C</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:colorPrimary">#5EEAD4</item>
+        <item name="android:colorAccent">#5EEAD4</item>
+        <item name="android:textColor">#F0FBFF</item>
+        <item name="android:isLightTheme">false</item>
+    </style>
+</resources>
